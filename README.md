@@ -1,1 +1,5 @@
-# excel-to-txt
+
+## Зависимости:
+```
+pip install pandas openpyxl xlrd
+```
