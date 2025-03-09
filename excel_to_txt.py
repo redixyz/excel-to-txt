@@ -30,6 +30,6 @@ if __name__=='__main__':
     print('0 - удалить excel файлы')
     chose=int(input())
     if chose:
-        excel_to_txt()
-    if not chose:remove_excel()
+        excel_to_txt(files)
+    if not chose:remove_excel(files)
     print('Готово!')
