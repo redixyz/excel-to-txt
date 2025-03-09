@@ -21,7 +21,7 @@ def excel_to_txt(files):
 
 def remove_excel(files):
     for file in files:
-        try:os.remove(os.path.join(os.getcwd(), file.split('.')[0] + '.txt'))
+        try:os.remove(os.path.join(os.getcwd(), file))
         except:pass
 
 
